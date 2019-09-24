@@ -24,14 +24,14 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li><a href="index.php">Home</a></li>
-					<li><a href="assingments.php">Assingments</a></li>
+					<li><a href="assignments.php">Assignments</a></li>
 				</ul>
 			</div>
 		</nav>
   </div>
     </header>
     <main>
-      <h1>Assingments coming soon</h1>
+      <h1>Assingments coming soon!</h1>
     </main>
     
   
