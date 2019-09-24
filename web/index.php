@@ -9,15 +9,28 @@
   </head>
   <body>
     <header> 
-    <h3>CS 313 BYUI</h3>
-      <nav>
-          <ul class="mainmenu">
-          <li class="menubutton"><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a><li>
-              <li><a href="index.php">Home</a></li>
-              <li><a href="">About</a></li>
-              <li><a href="assingments.php">Assingments</a></li>
-          </ul>
-      </nav>
+      
+      <h3>CS 313 BYUI</h3>
+      <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+			<div class="container">
+         <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Menu</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="index.php">Home</a></li>
+					<li><a href="assingmnets.php">Assingments</a></li>
+				</ul>
+			</div>
+		</nav>
+  </div>
     </header>
     <main>
       <h1>Kalbert Mata</h1>
@@ -25,7 +38,7 @@
       <img src="images/image1.jpg" alt="profile">
     </main>
     
-  <script src="hamburger.js"></script>
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
