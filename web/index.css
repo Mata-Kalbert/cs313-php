@@ -24,10 +24,11 @@
 	
 }
 img {
-    width: 50%;
+    width: 40%;
 }
 main {
     text-align: center;
     background-color: rgb(191, 214, 235);
-    
+    margin: 0%;
+
 }
