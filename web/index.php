@@ -9,8 +9,6 @@
   </head>
   <body>
     <header> 
-      
-      <h3>CS 313 BYUI</h3>
       <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
 			<div class="container">
          <div class="navbar-header">
