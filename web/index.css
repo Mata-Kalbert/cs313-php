@@ -35,3 +35,6 @@ main {
  main p {
     margin: 2% 20%;
 }
+h1 {
+    margin-top: 0;
+}
