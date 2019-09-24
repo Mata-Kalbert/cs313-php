@@ -23,3 +23,11 @@
 	transition: 0.7s all linear;
 	
 }
+img {
+    width: 50%;
+}
+main {
+    text-align: center;
+    background-color: rgb(191, 214, 235);
+    
+}
