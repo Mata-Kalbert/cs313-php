@@ -31,4 +31,7 @@ main {
     background-color: rgb(191, 214, 235);
     margin-top: 0;
 
+} 
+ main p {
+    margin: 20%;
 }
