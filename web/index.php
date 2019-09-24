@@ -24,11 +24,11 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li><a href="index.php">Home</a></li>
-					<li><a href="assignmnets.php">Assignments</a></li>
+					<li><a href="assignments.php">Assignments</a></li>
 				</ul>
-			</div>
+      </div>
+    </div>
 		</nav>
-  </div>
     </header>
     <main>
       <h1>Kalbert Mata</h1>
@@ -39,6 +39,7 @@
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
+  <footer>
+  </footer>
   </body>
   </html>
