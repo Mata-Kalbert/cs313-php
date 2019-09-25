@@ -35,7 +35,16 @@
     <p>My name is Kalbert Mata, I can say that baseball is my hobby. I love taking my two boys to their baseball practice and games, they are 8 and 7 years old. Last spring, we went to spring training in Arizona that was a lot of fun. </P>
       <img src="images/image1.jpg" alt="profile">
     <p> I’m majoring on web development. I enjoyed learning new things, that’s why I have chosen this field of study. I know that going to be a challenge to keep up with new updates and new technologies that constantly flooding the market. My main goal on is to prepare a portfolio that I can use on my job search.</P>
-    </main>
+    <div class="link">
+      <a href="assignments.php">
+      <?php
+      echo "Today is " . date("Y/m/d") . "<br>";
+      echo "Today is " . date("l");
+      ?>
+
+
+   </main>
+
     
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
