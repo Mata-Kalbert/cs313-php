@@ -32,9 +32,9 @@
     </header>
     <main>
       <h1>Kalbert Mata</h1>
-    <p>My name is Kalbert Mata, I can say that baseball is my hobby. I love taking my two boys to their baseball practice and games, they are 8 and 7 years old. Last spring, we went to spring training in Arizona that was a lot of fun. </P>
+    <p>My name is Kalbert Mata, I can say that baseball is my hobby. I love taking my two boys, who are 7 and eight, to their baseball practices and games. Last spring we went to spring training in Arizona, which was a lot of fun. </P>
       <img src="images/image1.jpg" alt="profile">
-    <p> I’m majoring on web development. I enjoyed learning new things, that’s why I have chosen this field of study. I know that going to be a challenge to keep up with new updates and new technologies that constantly flooding the market. My main goal on is to prepare a portfolio that I can use on my job search.</P>
+    <p> I’m majoring in Web Development. I enjoy learning new things, that’s why I have chosen this field of study, but I know it's going to be a challenge to keep up with new updates and new technologies that are constantly flooding the market. My main goal right now is to prepare a portfolio that I can use on my job search.</P>
     <div class="code">
       <a href="assignments.php">Assignments</a>
     </div> 
