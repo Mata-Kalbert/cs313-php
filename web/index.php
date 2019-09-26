@@ -36,7 +36,7 @@
       <img src="images/image1.jpg" alt="profile">
     <p> I’m majoring on web development. I enjoyed learning new things, that’s why I have chosen this field of study. I know that going to be a challenge to keep up with new updates and new technologies that constantly flooding the market. My main goal on is to prepare a portfolio that I can use on my job search.</P>
     <div class="code">
-      <a href="assignments.php">Coding</a>
+      <a href="assignments.php">Assignments</a>
     </div> 
     </main>
 
@@ -46,8 +46,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <footer>
   <?php
-      echo "Today is " . date("Y/m/d") . "<br>";
-      echo "Today is " . date("l");
+      echo '<div class="footer">';
+      echo "<p>Today is " . date("m.d.Y") . "</p>";
+      date_default_timezone_set('MST');
+      echo "<p>The time is " . date("h:i:sa") . "</p>";
+      echo "</div";
       ?>
   </footer>
   </body>
