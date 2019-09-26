@@ -46,7 +46,7 @@ h1 {
 .code a {
     text-decoration: none;
     font-size: 2.5rem;
-    padding-top: 10%;
+    padding-top: 25%;
     color: #ffffff;
 
 }
@@ -61,4 +61,11 @@ h1 {
 .footer {
     background-color: rgb(136, 141, 161);
     text-align: center;  
+    padding: 4%;
+    color: #ffffff;
+
+}
+.footer:hover{
+    background-color: #444444;
+    transition: 0.9S ALL linear;
 }
