@@ -41,12 +41,12 @@ h1 {
 .code {
     background-color: rgb(121, 89, 143);
     padding-bottom: 4% ;
+    padding-top: 2%;
 
 }
 .code a {
     text-decoration: none;
     font-size: 2.5rem;
-    padding-top: 25%;
     color: #ffffff;
 
 }
@@ -55,7 +55,7 @@ h1 {
 }
 .code:hover {
    background-color: #444444;
-   transition: 0.7s all linear;
+   transition: 0.9s all linear;
 }
 
 .footer {
