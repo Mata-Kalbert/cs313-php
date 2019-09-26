@@ -50,7 +50,7 @@
       echo "<p>Today is " . date("m.d.Y") . "</p>";
       date_default_timezone_set('MST');
       echo "<p>The time is " . date("h:i:sa") . "</p>";
-      echo "</div";
+      echo "</div>";
       ?>
   </footer>
   </body>
