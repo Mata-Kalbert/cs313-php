@@ -31,7 +31,9 @@
   </div>
     </header>
     <main>
-      <h1>Assingments coming soon!</h1>
+      <h1>Assingments</h1>
+      <div>
+        <a href="assignments/team3.html">Assignment Week 3</a>
     </main>
     
   
