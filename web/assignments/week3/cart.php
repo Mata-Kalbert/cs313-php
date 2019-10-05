@@ -20,5 +20,5 @@ foreach ( $_SESSION["cart"] as $i ) {
 <?php
 }
 ?>
-<a href="scart.php">Back to Browsing</a>
+<a href="scart.php">Back to Browsing</a><br>
 <a href="checkout.php">Check Out</a>

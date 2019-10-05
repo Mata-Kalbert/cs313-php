@@ -9,7 +9,7 @@ $zipcode = htmlspecialchars($_REQUEST["zipcode"]);
     
       if ( isset($_GET["back"])) {
           $i = $_GET["back"];
-          unset($_SESSION["cart"][$i]);
+          unset($_SESSION["cart"]);
           header("Location: https://intense-savannah-57089.herokuapp.com/assignments/week3/scart.php");
 
       }     
@@ -38,7 +38,7 @@ foreach ( $_SESSION["cart"] as $i ) {
 <?php
 }
 ?>
-<h2>Will be mail to:<h2>
+<h2>Will be mailed to:</h2>
 <p>Name: <?php echo $name; ?></P>
 <p>Street: <?php echo $street; ?></P>
 <p>City: <?php echo $city; ?></P>
