@@ -1,3 +1,20 @@
+<?php
+session_start();
+
+$name = htmlspecialchars($_REQUEST["name"]);
+$street = htmlspecialchars($_REQUEST["street"]);
+$city = htmlspecialchars($_REQUEST["city"]);
+$state = htmlspecialchars($_REQUEST["state"]);
+$zipcode = htmlspecialchars($_REQUEST["zipcode"]);
+    
+      if ( isset($_GET["back"])) {
+          $i = $_GET["back"];
+          unset($_SESSION["cart"][$i]);
+          header("Location: https://intense-savannah-57089.herokuapp.com/assignments/week3/scart.php");
+
+      }     
+?>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,4 +38,12 @@ foreach ( $_SESSION["cart"] as $i ) {
 <?php
 }
 ?>
+<h2>Will be mail to:<h2>
+<p>Name: <?php echo $name; ?></P>
+<p>Street: <?php echo $street; ?></P>
+<p>City: <?php echo $city; ?></P>
+<p>State: <?php echo $state; ?></P>
+<p>Zip Code: <?php echo $zipcode; ?></P>
+<a href="?back=<?php echo($i); ?>">Continue shopping</a>
+
 </body>
