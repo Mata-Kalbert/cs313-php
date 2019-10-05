@@ -6,6 +6,13 @@ if ( isset($_GET["delete"]) ) {
 	unset($_SESSION["cart"][$i]);	
 }
 ?>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="scart.css">
+    <title>Shopping Cart Activity</title>
+</head>
 <h1>Cart</h1>
 <?php
 foreach ( $_SESSION["cart"] as $i ) {
@@ -20,5 +27,6 @@ foreach ( $_SESSION["cart"] as $i ) {
 <?php
 }
 ?>
+
 <a href="scart.php">Back to Shopping</a><br>
 <a href="checkout.php">Check Out</a>
