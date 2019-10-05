@@ -22,8 +22,11 @@ if ( isset($_GET["add"]) ) {
     <title>Shopping Cart Activity</title>
 </head>
 <body>
+    <header>
+
     <a href="cart.php"><img src="imgcart/shopcart.png" alt="cart"></a>
     <h1>Browse Products</h1>
+    </header>
     <div class="colunms">
         <?php
         for ($i=0; $i< count($product); $i++) {
