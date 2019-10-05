@@ -7,9 +7,9 @@ $price = array("$10", "$45", "$8");
 
     if ( isset($_GET["add"])) {
         $i = $_GET["add"];
-        $_SESSION["price"][$i] = $price[$i];
-        $_SESSION["image"][$i] = $image[$i];
         $_SESSION["product"][$i] = $product[$i];
+        $_SESSION["image"][$i] = $image[$i];
+        $_SESSION["price"][$i] = $price[$i];
         $_SESSION["cart"][$i] = $i;  
     }
 
