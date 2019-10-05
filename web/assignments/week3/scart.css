@@ -1,10 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
-body {
-  background-color: rgb(184, 187, 139);
-  font-family: Helvetica, arial, sans-serif;
-  margin: 0;
-}
+
 header img {
+    background-color: #aad0e2;
     width: 2%;
     float: right;
     
