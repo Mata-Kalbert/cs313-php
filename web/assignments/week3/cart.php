@@ -15,10 +15,10 @@ foreach ( $_SESSION["cart"] as $i ) {
         <p><?php echo( $_SESSION["product"][$i] ); ?></p>
         <img src=<?php echo( $_SESSION["image"][$i] ); ?> alt="productimage">
         <p><?php echo( $_SESSION["price"][$i] ); ?></p>
-        <a href="?delete=<?php echo($i); ?>">Delete from cart</a>
+        <a href="?delete=<?php echo($i); ?>">Remove Item</a>
     </div>
 <?php
 }
 ?>
-<a href="scart.php">Back to Browsing</a><br>
+<a href="scart.php">Back to Shopping</a><br>
 <a href="checkout.php">Check Out</a>
