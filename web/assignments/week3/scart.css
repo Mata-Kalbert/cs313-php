@@ -5,12 +5,12 @@ body {
   margin: 0;
 }
 header > img {
-    width: 10%;
-    float:right;
+    width: 2%;
+    float: right;
     
 }
-.colunms{
-    display:grid;
+.colunms {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
 }
