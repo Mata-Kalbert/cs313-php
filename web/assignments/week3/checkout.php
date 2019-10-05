@@ -9,7 +9,7 @@
 <body>
 <h1>Check out</h1>
 <form method="post" action="confirm.php">
-<p> Enter your shippind addressa:</p>
+<p> Enter your shippind address:</p>
 <label for="name">Name</label><input type="text" name="name"><br>
 <label for="street">Street</label><input type="text" name="street"><br>
 <label for="city">City</label><input type="text" name="city"><br>

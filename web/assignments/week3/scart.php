@@ -24,15 +24,18 @@ if ( isset($_GET["add"]) ) {
 <body>
     <a href="cart.php"><img src="imgcart/shopcart.png" alt="cart"></a>
     <h1>Browse Products</h1>
-    <?php
-for ($i=0; $i< count($product); $i++) {
-?>
-	<div>
+    <div class="colunms">
+        <?php
+        for ($i=0; $i< count($product); $i++) {
+        ?>
+	    <div>
         <h2><?php echo($product[$i]); ?></h2>
         <img src=<?php echo($image[$i]); ?> alt="productimage">
 		<p><?php echo($price[$i]); ?></p>
 		<a href="?add=<?php echo($i); ?>">Add to cart</a>
-</div>
+        </div>
+    </div>
+
 <?php
 }
 ?>
