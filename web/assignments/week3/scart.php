@@ -23,14 +23,14 @@ $price = array("$10", "$45", "$8");
     <title>Shopping Cart Activity</title>
 </head>
 <body>
-    <a href="cart.php"><img scr="imgcart/shopcart.png" alt="logo"></a>
+    <a href="cart.php"><img scr="imgcart/shopcart.png" alt="Cart"></a>
     <h1>Browse Products</h1>
     <?php
 for ($i=0; $i< count($product); $i++) {
 ?>
 	<div>
         <h2><?php echo($product[$i]); ?></h2>
-        <img src=<?php echo($image[$i]); ?> alt="Banner">
+        <img src=<?php echo($image[$i]); ?> alt="product">
 		<p><?php echo($price[$i]); ?></p>
 		<a href="?add=<?php echo($i); ?>">Add to cart</a>
 </div>
