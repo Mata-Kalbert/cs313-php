@@ -31,7 +31,7 @@ if ( isset($_GET["add"]) ) {
         <?php
         for ($i=0; $i< count($product); $i++) {
         ?>
-	    <div>
+	    <div class="product">
         <h2><?php echo($product[$i]); ?></h2>
         <img src=<?php echo($image[$i]); ?> alt="productimage">
 		<p><?php echo($price[$i]); ?></p>
