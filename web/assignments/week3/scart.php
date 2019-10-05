@@ -12,7 +12,6 @@ if ( isset($_GET["add"]) ) {
     $_SESSION["price"][$i] = $price[$i]; 
 	$_SESSION["cart"][$i] = $i;
  }
-
 ?>
 
 <html lang="en">
