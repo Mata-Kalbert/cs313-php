@@ -6,7 +6,7 @@ header {
     }
 header img {
     width: 10%;
-    float: left;
+    float: right;
 }
 .colunms {
     display: grid;

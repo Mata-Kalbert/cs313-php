@@ -22,10 +22,12 @@ if ( isset($_GET["add"]) ) {
     <title>Shopping Cart Activity</title>
 </head>
 <body>
+    
     <header>
-
+    <div>
     <a href="cart.php"><img src="imgcart/shopcart.png" alt="cart"></a>
     <h1>Browse Products</h1>
+    </div>
     </header>
     <div class="colunms">
         <?php
