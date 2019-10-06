@@ -21,6 +21,7 @@ if ( isset($_GET["delete"]) ) {
     </div>
     </header>
 <div class="display">
+    <h2>Cart</h2>
 <?php
 foreach ( $_SESSION["cart"] as $i ) {
 ?>
