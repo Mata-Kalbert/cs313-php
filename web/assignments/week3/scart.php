@@ -2,7 +2,7 @@
 session_start();
 
 $product = array("Bat", "Catchergear", "Glove");
-$image = array("imgcart/bat.png", "imgcart/catchergear.jpg","imgcart/glove.jpg");
+$image = array("imgcart/catcerset.jpg", "imgcart/catchergear.jpg","imgcart/glove.jpg");
 $price = array("$10", "$45", "$8");
 
 if ( isset($_GET["add"]) ) {
