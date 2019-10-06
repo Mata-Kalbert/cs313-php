@@ -1,8 +1,8 @@
 <?php
 session_start();
 
-$product = array("Bat", "Catchergear", "Glove");
-$image = array("imgcart/bat.png", "imgcart/catchergear","imgcart/glove.jpg");
+$product = array("Bat", "Catchergear", "Catcherset");
+$image = array("imgcart/bat.png", "imgcart/catchergear.jpg","imgcart/catcherset.jpg");
 $price = array("$10", "$45", "$8");
 
 if ( isset($_GET["add"]) ) {
@@ -29,17 +29,18 @@ if ( isset($_GET["add"]) ) {
     <h1>Browse Products</h1>
     </div>
     </header>
-    <div class="colunms">
+    <main> 
         <?php
         for ($i=0; $i< count($product); $i++) {
         ?>
+    
 	    <div class="product">
         <h2><?php echo($product[$i]); ?></h2>
         <img src=<?php echo($image[$i]); ?> alt="productimage">
 		<p><?php echo($price[$i]); ?></p>
 		<a href="?add=<?php echo($i); ?>">Add to cart</a>
         </div>
-    </div>
+    </main>
 
 <?php
 }
