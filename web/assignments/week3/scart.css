@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
 
-header {
+header div {
     background-color: #aad0e2;
    
     }
 header img {
     width: 10%;
     float: right;
+
 }
 .colunms {
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
