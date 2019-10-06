@@ -13,7 +13,10 @@ if ( isset($_GET["delete"]) ) {
     <link type="text/css" rel="stylesheet" href="scart.css">
     <title>Shopping Cart Activity</title>
 </head>
+<body>
+    <header>
 <h1>Cart</h1>
+   </header>
 <div class="display">
 <?php
 foreach ( $_SESSION["cart"] as $i ) {
@@ -32,3 +35,4 @@ foreach ( $_SESSION["cart"] as $i ) {
 <div class="cart">
 <a href="scart.php">Back to Shopping</a>
 <a href="checkout.php">Check Out</a>
+</body>
