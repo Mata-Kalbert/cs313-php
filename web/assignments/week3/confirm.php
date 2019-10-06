@@ -26,10 +26,11 @@ $zipcode = htmlspecialchars($_REQUEST["zipcode"]);
     <h1>Order Confirmed</h1>
     <p>Thanks for shopping with us</p>
     <h2>Items:</h2>
+    <div class="display">
     <?php
 foreach ( $_SESSION["cart"] as $i ) {
 ?>
-	<div>
+	<div class="product">
         <p><?php echo( $product[$_SESSION["cart"][$i]] ); ?></p>
         <p><?php echo( $_SESSION["product"][$i] ); ?></p>
         <img src=<?php echo( $_SESSION["image"][$i] ); ?> alt="productimage">
@@ -38,6 +39,7 @@ foreach ( $_SESSION["cart"] as $i ) {
 <?php
 }
 ?>
+</div>
 <h2>Will be mailed to:</h2>
 <p>Name: <?php echo $name; ?></P>
 <p>Street: <?php echo $street; ?></P>

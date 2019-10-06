@@ -37,14 +37,14 @@ h1 {
 .product a {
     text-decoration: none;
     font-style: lora;
-    background-color: #7a84dd;
-    box-shadow: 1px 1px #2b2828;
+    background-color: #aad0e2;
+    box-shadow: 2px 2px 2px #2b2828;
     padding: 3%;
 
 
 }
 .product a:hover {
-    background-color: #30a5db;
+    background-color: #6466ce;
     transition: all 1s;
     
 }
