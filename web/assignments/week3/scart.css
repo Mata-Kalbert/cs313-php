@@ -2,6 +2,7 @@
 
 header div {
     background-color: #aad0e2;
+    padding-bottom: 10%;
    
     }
 header img {
@@ -10,7 +11,7 @@ header img {
 
 }
 .colunms {
-    
+    background: #d9eb99;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
