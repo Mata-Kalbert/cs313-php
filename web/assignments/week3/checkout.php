@@ -7,6 +7,12 @@
 </head>
 
 <body>
+<header>
+    <div>
+    <a href="cart.php"><img src="imgcart/shopcart.png" alt="cart"></a>
+    <h1>Baseball Store</h1>
+    </div>
+</header>
 <h1>Check out</h1>
 <form method="post" action="confirm.php">
 <p> Enter your shippind address:</p>
@@ -15,7 +21,7 @@
 <label for="city">City</label><input type="text" name="city"><br>
 <label for="state">State</label><input type="text" name="state"><br>
 <label for="zipcpde">Zip Code</label><input type="number" name="zipcode"><br>
-<input type="submit" value="Checkout">
+<input type="submit" value="Checkout" class="buttom">
 </body>
 
 

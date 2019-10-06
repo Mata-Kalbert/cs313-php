@@ -23,11 +23,15 @@ $zipcode = htmlspecialchars($_REQUEST["zipcode"]);
     <title>Shopping Cart Activity</title>
 </head>
 <body>
-    <header>
+<header>
+    <div>
+    <a href="cart.php"><img src="imgcart/shopcart.png" alt="cart"></a>
+    <h1>Baseball Store</h1>
+    </div>
+   </header>
     <h1>Order Confirmed</h1>
     <h2>Items:</h2>
-    </header>
-    <div class="display">
+  <div class="display">
     <?php
 foreach ( $_SESSION["cart"] as $i ) {
 ?>

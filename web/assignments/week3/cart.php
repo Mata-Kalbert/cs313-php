@@ -15,8 +15,11 @@ if ( isset($_GET["delete"]) ) {
 </head>
 <body>
     <header>
-<h1>Cart</h1>
-   </header>
+    <div>
+    <a href="cart.php"><img src="imgcart/shopcart.png" alt="cart"></a>
+    <h1>Baseball Store</h1>
+    </div>
+    </header>
 <div class="display">
 <?php
 foreach ( $_SESSION["cart"] as $i ) {
