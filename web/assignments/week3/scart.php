@@ -26,7 +26,7 @@ if ( isset($_GET["add"]) ) {
     <header>
     <div>
     <a href="cart.php"><img src="imgcart/shopcart.png" alt="cart"></a>
-    <h1>Browse Products</h1>
+    <h1>Baseball Store</h1>
     </div>
     </header>
         <div class="display">

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
 
 header div {
     background-color: #aad0e2;
@@ -9,6 +9,12 @@ header img {
     width: 10%;
     float: right;
 
+}
+h1 {
+    font-family: 'Merriweather', serif;
+    padding: 6%;
+    text-align: center;
+    color: #3a3b38;
 }
 .display {
     background: #d9eb99;
@@ -38,6 +44,6 @@ header img {
 }
 .product a:hover {
     background-color: #30a5db;
-    transition: all;
+    transition: all .7s;
     
 }
