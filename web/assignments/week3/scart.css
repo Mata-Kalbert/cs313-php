@@ -16,7 +16,7 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
 }
 .product img {
-    width: 80%;
+    width: 20%;
     display: block;
     margin-right: auto;
     margin-left: auto;
