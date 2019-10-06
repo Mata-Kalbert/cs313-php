@@ -17,12 +17,24 @@ header img {
 }
 .product {
     text-align: center;
-    
+
 }
 .product img {
-    width: 20%;
+    width: 96%;
     display: block;
     margin-right: auto;
     margin-left: auto;
 
+}
+.product a {
+    text-decoration: none;
+    font-style: lora;
+    background-color: #7a84dd;
+    box-shadow: 2px 2px #2b2828;
+
+
+}
+.product a:hover {
+    color: #30a5db;
+    transition: .7s;
 }
