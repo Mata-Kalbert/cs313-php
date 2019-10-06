@@ -14,6 +14,7 @@ header img {
     background: #d9eb99;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 4%;
 }
 .product {
     text-align: center;
@@ -30,11 +31,13 @@ header img {
     text-decoration: none;
     font-style: lora;
     background-color: #7a84dd;
-    box-shadow: 2px 2px #2b2828;
+    box-shadow: 1px 1px #2b2828;
+    padding: 3%;
 
 
 }
 .product a:hover {
-    color: #30a5db;
-    transition: .7s;
+    background-color: #30a5db;
+    transition: all;
+    
 }
