@@ -29,7 +29,7 @@ if ( isset($_GET["add"]) ) {
     <h1>Browse Products</h1>
     </div>
     </header>
-    <main> 
+        <div class="display">
         <?php
         for ($i=0; $i< count($product); $i++) {
         ?>
@@ -39,9 +39,10 @@ if ( isset($_GET["add"]) ) {
 		<p><?php echo($price[$i]); ?></p>
 		<a href="?add=<?php echo($i); ?>">Add to cart</a>
         </div>
-    </main>
+    
 
 <?php
 }
 ?>
+</div>
 </body>

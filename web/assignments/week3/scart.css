@@ -10,10 +10,14 @@ header img {
     float: right;
 
 }
-main {
+.display {
     background: #d9eb99;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+.product {
+    text-align: center;
+    
 }
 .product img {
     width: 20%;
