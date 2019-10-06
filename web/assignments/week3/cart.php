@@ -20,8 +20,9 @@ if ( isset($_GET["delete"]) ) {
     <h1>Baseball Store</h1>
     </div>
     </header>
-<div class="display">
     <h2>Cart</h2>
+<div class="display">
+    
 <?php
 foreach ( $_SESSION["cart"] as $i ) {
 ?>

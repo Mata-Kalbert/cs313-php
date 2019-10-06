@@ -13,7 +13,7 @@
     <h1>Baseball Store</h1>
     </div>
 </header>
-<h1>Check out</h1>
+<h2>Check out</h2>
 <form method="post" action="confirm.php">
 <p> Enter your shippind address:</p>
 <label for="name">Name</label><input type="text" name="name"><br>
