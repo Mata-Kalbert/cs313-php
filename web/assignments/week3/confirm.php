@@ -40,6 +40,7 @@ foreach ( $_SESSION["cart"] as $i ) {
 }
 ?>
 </div>
+<div class="shipping">
 <h2>Will be mailed to:</h2>
 <p>Name: <?php echo $name; ?></P>
 <p>Street: <?php echo $street; ?></P>
@@ -47,5 +48,6 @@ foreach ( $_SESSION["cart"] as $i ) {
 <p>State: <?php echo $state; ?></P>
 <p>Zip Code: <?php echo $zipcode; ?></P>
 <a href="?back=<?php echo($i); ?>">Continue shopping</a>
+</div>
 
 </body>
