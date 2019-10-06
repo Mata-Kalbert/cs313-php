@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
 
 header div {
-    background-color: #aad0e2;
+    
     padding-bottom: 5%;
    
     }
@@ -28,6 +28,7 @@ h1 {
 
 }
 .product img {
+    background-color: #b6ced4;
     width: 96%;
     display: block;
     margin-right: auto;
@@ -47,4 +48,18 @@ h1 {
     background-color: #6466ce;
     transition: all 1s;
     
+}
+.shipping a {
+    text-decoration: none;
+    font-style: lora;
+    background-color: #aad0e2;
+    box-shadow: 2px 2px 2px #2b2828;
+    padding: 3%;
+}
+.cart a {
+    text-decoration: none;
+    font-style: lora;
+    background-color: #aad0e2;
+    box-shadow: 2px 2px 2px #2b2828;
+    padding: 3%;
 }
