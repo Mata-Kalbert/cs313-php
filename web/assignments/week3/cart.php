@@ -30,5 +30,5 @@ foreach ( $_SESSION["cart"] as $i ) {
 ?>
 </div>
 <div class="cart">
-<a href="scart.php">Back to Shopping</a><br>
+<a href="scart.php">Back to Shopping</a>
 <a href="checkout.php">Check Out</a>

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
 
 header div {
-    background-color: #aad0e2;
+    background-color: #32a9e0;
     padding-bottom: 5%;
    
     }
@@ -56,6 +56,7 @@ h1 {
     background-color: #aad0e2;
     box-shadow: 2px 2px 2px #2b2828;
     padding: 1%;
+    margin-bottom: 2%;
 }
 .shipping a:hover {
     background-color: #6466ce;
