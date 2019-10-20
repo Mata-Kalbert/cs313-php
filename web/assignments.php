@@ -34,8 +34,8 @@
       <h1>Assingments</h1>
       <div>
         <a href="assignments/team3.html">Assignment Week 3</a><br>
-        <a href="assignments/week3/scart.php">Shopping Cart</a>
-        <a href="assignments/books/index.php">Book Data</a>
+        <a href="assignments/week3/scart.php">Shopping Cart</a><br>
+        <a href="assignments/book/index.php">Book Data</a>
     </main>
     
   
