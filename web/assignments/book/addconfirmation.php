@@ -19,7 +19,7 @@ $stmt->execute();
 
 $newId = $db->lastInsertId('Authors_authorsid_seq');
 
-$stmt = $db->prepare('INSERT INTO Book (authorsid, title, genre, reading_level, check_out, due_date, finnish ) 
+$stmt = $db->prepare('INSERT INTO Books (authorsid, title, genre, reading_level, check_out, due_date, finnish ) 
 VALUES (:newId,:title, :genre, :reading_level, :check_out, :due_date, :finnish);');
 $stmt->bindValue(':newId', $newId, PDO::PARAM_INT);
 $stmt->bindValue(':title', $title, PDO::PARAM_INT);
