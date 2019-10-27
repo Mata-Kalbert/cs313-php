@@ -11,7 +11,7 @@ header{
       }
       
       li a {
-        display: inline;
+        display: inline-block;
         color: #4e2929;
         padding: 8px 16px;
         text-decoration: none;
@@ -23,6 +23,12 @@ header{
         color: white;
         transition: .7s;
       }
+      li a:active{
+          background-color: cornflowerblue;
+      }
       main{
           background-color: #8ab5c2;
+      }
+      footer {
+          background-color: #76caa7;
       }
