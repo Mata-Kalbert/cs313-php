@@ -28,7 +28,7 @@ session_start();
             <form action="returnconfirmation.php" method="post">
                 <label>Title</label>
                 <?php
-
+                 ini_set('display_errors', 1);
                 require('dbConnect.php');
                 $db = get_db();
 
