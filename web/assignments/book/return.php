@@ -50,7 +50,7 @@ session_start();
             </form>
         </main>
         <footer>
-            <p>CS 313 Lucia Mata 2019</p>
+            <p>CS 313 Kalbertss Mata 2019</p>
         </footer>
     </body>
 </html>
