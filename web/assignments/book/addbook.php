@@ -26,16 +26,15 @@ session_start();
             <h1>Book Manager</h1>
             <h2>Add A New Book</h2>
             <form method="post" action="addconfirmation.php">
-                <label>Title</label><input name="title" type="text">
-                <label>Author</label><input name="author" type="text">
-                <label>Genre</label><input name="Genre" type="text">
-                <label>Grade level</label><input name="grade_level" type="text">
-                <label>Check out date</label><input name="check_out" type="text">
-                <label>Due date:</label><input name="due_date" type="text">
-                <input type="click" value="add book">
+                <label>Title</label><input type="text" name="title"><br>
+                <label>Author</label><input name="author" type="text"><br>
+                <label>Genre</label><input type="text" name="genre"><br>
+                <label>Reading Level</label><input type="text" name="reading_level"><br>
+                <label>Check Out Date</label><input type="text" name="check_out"><br>
+                <label>Due Date:</label><input type="text" name="due_date"><br>
+                <input type="submit" value="Add Book">
             </form>
         </main>
-        <footer>
             <p>CS 313 Kalbert Mata 2019</p>
         </footer>
     </body>
