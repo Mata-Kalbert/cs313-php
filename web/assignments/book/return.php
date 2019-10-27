@@ -25,9 +25,32 @@ session_start();
         <main>
             <h1>Book Manager</h1>
             <h2>Return a Book</h2>
+            <form action="returnconfirmation.php" method="post">
+                <label>Title</label>
+                <?php
+
+                require('dbConnect.php');
+                $db = get_db();
+
+                $query = $db->query("SELECT bookID, title FROM Book WHERE already_read = 'false';"); // Run your query
+
+                echo '<select name="titlebook">'; // Open your drop down box
+
+                // Loop through the query results, outputing the options one by one
+                while ($row = $query->fetch(PDO::FETCH_ASSOC)) {
+                    $bookid = $row['bookID'];
+                echo '<option value="$bookid">'.$row['title'].'</option>';
+                }
+
+                echo '</select>';
+
+                ?>
+                <label>What did you think of the book?</label><input type="textbox" name="review">
+                <input type="submit" value="Return book">
+            </form>
         </main>
         <footer>
-            <p>CS 313 Kalbert Mata 2019</p>
+            <p>CS 313 Lucia Mata 2019</p>
         </footer>
     </body>
 </html>
