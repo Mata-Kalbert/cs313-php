@@ -8,7 +8,7 @@ $content = htmlspecialchars($_POST['review']);
 require('dbConnect.php');
 $db = get_db();
 
-$stmt = $db->prepare('INSERT INTO Review (booksid, reviews_enter) VALUES (:book_id, :content);');
+$stmt = $db->prepare('INSERT INTO Reviews (booksid, reviews_enter) VALUES (:book_id, :content);');
 $stmt->bindValue(':book_id', $book_id, PDO::PARAM_INT);
 $stmt->bindValue(':content', $content, PDO::PARAM_INT);
 $stmt->execute();
