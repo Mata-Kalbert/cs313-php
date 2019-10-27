@@ -32,7 +32,7 @@ session_start();
                 require('dbConnect.php');
                 $db = get_db();
 
-                $query = $db->query("SELECT booksid, title FROM Book WHERE finnish = 'false';"); // Run your query
+                $query = $db->query("SELECT booksid, title FROM Books WHERE finnish = 'false';"); // Run your query
 
                 echo '<select name="titlebook">'; // Open your drop down box
 
