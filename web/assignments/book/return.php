@@ -27,7 +27,24 @@ session_start();
             <h2>Return a Book</h2>
             <form action="returnconfirmation.php" method="post">
                 <label>Title</label>
-                
+                <?php
+
+                require('dbConnect.php');
+                $db = get_db();
+
+                $query = $db->query("SELECT booksid, title FROM Book WHERE finnish = 'false';"); // Run your query
+
+                echo '<select name="titlebook">'; // Open your drop down box
+
+                // Loop through the query results, outputing the options one by one
+                while ($row = $query->fetch(PDO::FETCH_ASSOC)) {
+                    $bookid = $row['booksid'];
+                echo '<option value="$bookid">'.$row['title'].'</option>';
+                }
+
+                echo '</select>';
+
+                ?>
                 <label>What did you think of the book?</label><input type="textbox" name="review">
                 <input type="submit" value="Return book">
             </form>
