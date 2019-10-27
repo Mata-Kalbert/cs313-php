@@ -9,7 +9,7 @@ session_start();
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link type="text/css" rel="stylesheet" href="main.css">
         <title>Book Manager</title>
-    </head>
+        </head>
     <body>
         <header>
             <nav>

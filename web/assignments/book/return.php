@@ -12,6 +12,7 @@ session_start();
     </head>
     <body>
         <header>
+         
             <nav>
                 <ul>
                     <li><a href="index.php">Home</a></li>
@@ -38,8 +39,8 @@ session_start();
 
                 // Loop through the query results, outputing the options one by one
                 while ($row = $query->fetch(PDO::FETCH_ASSOC)) {
-                    $bookid = $row['booksid'];
-                echo '<option value="$bookid">'.$row['title'].'</option>';
+                    
+                echo "<option value='" .$row['booksid'] . "'>".$row['title'].'</option>';
                 }
 
                 echo '</select>';
