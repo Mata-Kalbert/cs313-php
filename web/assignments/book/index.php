@@ -29,11 +29,12 @@ session_start();
             </nav> -->
         </header>
         <main>
-            <h1>Book Manager</h1>
-            <p>Welcome to the Book Manager! Here you can keep track of the books you are currently readin, and of the ones you have already read.</p>
+            
         </main>
         <script src="books_menu.js"></script>
         <footer>
+    
+            <p>Welcome to the Book Reader! Here you can keep track of the books you are currently readin, and of the ones you have already read.</p>
             <p>CS 313 Kalbert Mata 2019</p>
         </footer>
         

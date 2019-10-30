@@ -7,7 +7,9 @@ header{
     
 }
 footer{
-  color:whitesmoke;
+  color: rgb(30, 197, 161);
+  font-size: 2rem;
+
 }
 
   
@@ -45,7 +47,8 @@ footer{
  }
  .dropdown-content a {
   color: black;
-  padding: 50px 70px;
+  font-size: 1.5rem;
+  padding: 40px 60px;
   text-decoration: none;
   display: block;
  }
