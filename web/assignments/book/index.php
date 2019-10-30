@@ -25,16 +25,17 @@ session_start();
                     <a href="return.php">Return</a>
                 </div> 
                 </div>         
-                </ul>
-            </nav>
+               <!-- </ul>
+            </nav> -->
         </header>
         <main>
             <h1>Book Manager</h1>
             <p>Welcome to the Book Manager! Here you can keep track of the books you are currently readin, and of the ones you have already read.</p>
         </main>
-        <script scr="books_menu.js"></script>
+        
         <footer>
             <p>CS 313 Kalbert Mata 2019</p>
         </footer>
+        <script scr="books_menu.js"></script>
     </body>
 </html>
