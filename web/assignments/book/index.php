@@ -15,7 +15,7 @@ session_start();
         <header>
             <!--<nav class="navbar navbar-inverse navbar-static-top" role="navigation"> -->
 			  <div class="menu">
-              <button id="click" class="dropbtn">Menu</button>
+              <button id="click" class="dropbtn">Book Reader</button>
                <div id="dropdown" class="dropdown-content">
                <!--<div class="navbar-header"> -->
                     <a href="index.php">Home</a>
