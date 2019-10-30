@@ -6,6 +6,9 @@ header{
     padding: 10px;
     
 }
+footer{
+  color:whitesmoke;
+}
 
   
       /*main{
@@ -19,8 +22,8 @@ header{
 .dropbtn {
   background-color: purple;
   color: white;
-  padding: 40px;
-  font-size: 23px;
+  padding: 50px;
+  font-size: 30px;
   border: none;
   cursor: pointer;
   border-radius: 10%;
@@ -42,7 +45,7 @@ header{
  }
  .dropdown-content a {
   color: black;
-  padding: 40px 60px;
+  padding: 50px 70px;
   text-decoration: none;
   display: block;
  }
