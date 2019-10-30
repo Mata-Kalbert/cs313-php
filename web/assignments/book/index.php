@@ -13,7 +13,7 @@ session_start();
         </head>
     <body>
         <header>
-            <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+            <!--<nav class="navbar navbar-inverse navbar-static-top" role="navigation"> -->
 			  <div class="menu">
               <button id="click" class="dropbtn">Menu</button>
                <div id="dropdown" class="dropdown-content">
@@ -32,7 +32,7 @@ session_start();
             <h1>Book Manager</h1>
             <p>Welcome to the Book Manager! Here you can keep track of the books you are currently readin, and of the ones you have already read.</p>
         </main>
-        <script scr="book/books_menu.js"></script>
+        <script scr="books_menu.js"></script>
         <footer>
             <p>CS 313 Kalbert Mata 2019</p>
         </footer>
