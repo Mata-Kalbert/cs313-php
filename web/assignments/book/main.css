@@ -1,4 +1,4 @@
-/*header{
+header{
     background-color: azure;
 }
 
@@ -24,7 +24,7 @@ ul {
       }
       
       /* Change the link color on hover */
-      /*li a:hover {
+      li a:hover {
         background-color: #555;
         color: white;
         transition: .7s;
