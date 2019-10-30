@@ -18,11 +18,11 @@ session_start();
               <button id="click" class="dropbtn">Menu</button>
                <div id="dropdown" class="dropdown-content">
                <!--<div class="navbar-header"> -->
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="checkout.php">Cheked Out</a></li>
-                    <li><a href="returned.php">Returned</a></li>
-                    <li><a href="addbook.php">Add New</a></li>
-                    <li><a href="return.php">Return</a></li>
+                    <a href="index.php">Home</a>
+                    <a href="checkout.php">Cheked Out</a>
+                    <a href="returned.php">Returned</a>
+                    <a href="addbook.php">Add New</a>
+                    <a href="return.php">Return</a>
                 </div> 
                 </div>         
                 </ul>
