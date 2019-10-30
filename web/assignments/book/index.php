@@ -14,15 +14,17 @@ session_start();
     <body>
         <header>
             <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-			  <div class="container">
+			  <div class="menu">
               <button id="click" class="dropbtn">Menu</button>
                <div id="dropdown" class="dropdown-content">
-               <div class="navbar-header">
+               <!--<div class="navbar-header"> -->
                     <li><a href="index.php">Home</a></li>
                     <li><a href="checkout.php">Cheked Out</a></li>
                     <li><a href="returned.php">Returned</a></li>
                     <li><a href="addbook.php">Add New</a></li>
                     <li><a href="return.php">Return</a></li>
+                </div> 
+                </div>         
                 </ul>
             </nav>
         </header>
