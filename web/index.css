@@ -72,3 +72,4 @@ h1 {
     background-color: #444444;
     transition: 0.9S ALL linear;
 }
+.show {display:block;}
