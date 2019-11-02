@@ -106,3 +106,7 @@ body{
       float:left;
       width:65%;
     }
+    .book-review input[type=textbox]{
+      float: right;
+      width:20%;
+    }
