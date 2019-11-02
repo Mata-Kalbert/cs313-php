@@ -112,7 +112,7 @@ ul {
     footer {
         background-color: rgb(136, 141, 161);
         text-align: center;  
-        padding: 5%;
+        padding-block-end: 0%;
         color: #ffffff;
         margin-top: 0;
     
