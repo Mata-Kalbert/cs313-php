@@ -28,6 +28,8 @@ session_start();
         <main>
             <h1>Book Manager</h1>
             <p class="intro">Welcome to the Book Manager! Here you can keep track of the books you are currently reading, and of the ones you have already read.</p>
+            <p class="quote">"After all, to the well-organized mind, death is but the next great adventure."</p>
+            <p class="intro">My 8-year-old's favorite quote from J.K. Rowling</p>
         </main>
         <footer>
             <p>CS 313 Kalbert Mata 2019</p>
