@@ -51,12 +51,12 @@ ul {
       display: inline;
       color: white;
     }
-    li a{
+    .nav li a{
       color: white;
       font-size:1.3rem;
 
     }
-    li a:hover{
+    .nav li a:hover{
       background-color: blue;
       transition: all .7s;
     }
