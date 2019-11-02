@@ -19,6 +19,7 @@ ul {
       padding: 0;
       width: 200px;
       height:40px;
+      padding: 20px;
       
     }
     
@@ -40,9 +41,9 @@ ul {
     }
     main{
         background-color: #8ab5c2;
-        padding:40px;
+        padding:4px;
     }
     footer {
         background-color: #76caa7;
-        padding:35:
+        padding-top:15;
     }
