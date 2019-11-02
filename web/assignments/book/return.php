@@ -46,10 +46,10 @@ session_start();
                 echo "<option value='" .$row['booksid'] . "'>".$row['title'].'</option>';
                 }
 
-                echo '</select><br>';
+                echo '</select>';
 
                 ?>
-                <label>What did you think of the book?</label><input type="textbox" name="review"><br>
+                <label>What did you think of the book?</label><input type="textbox" name="review">
                 <input type="submit" value="Return book">
             </form>
             </div>
