@@ -108,10 +108,11 @@ body{
     }
     .book-review input[type=textbox]{
       float: right;
-      width:28%;
+      width:24%;
     }
     .book-review input[type=submit]{
       float: right;
       
+
 
     }
