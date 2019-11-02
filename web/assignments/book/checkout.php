@@ -17,8 +17,8 @@ session_start();
              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="checkout.php">Cheked Out</a></li>
-                    <li><a href="returned.php">Returned</a></li>
+                    <li><a href="checkout.php">Reading</a></li>
+                    <li><a href="returned.php">Books Read</a></li>
                     <li><a href="addbook.php">Add New</a></li>
                     <li><a href="return.php">Return</a></li>
                 </ul>
@@ -69,7 +69,7 @@ session_start();
             
             ?>
           <div class="delete">
-              
+
            <form action="delete_book_read.php" method="post">
                 <label>Title</label>
                 <?php
@@ -92,6 +92,7 @@ session_start();
                 ?>
                 <input type="submit" value="Delete Book">
             </form>
+            </div>
         </main>
         <footer>
             <p>CS 313 Kalbert Mata 2019</p>

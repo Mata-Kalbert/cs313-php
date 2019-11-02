@@ -17,8 +17,8 @@ session_start();
              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="checkout.php">Cheked Out</a></li>
-                    <li><a href="returned.php">Returned</a></li>
+                    <li><a href="checkout.php">Reading</a></li>
+                    <li><a href="returned.php">Books Read</a></li>
                     <li><a href="addbook.php">Add New</a></li>
                     <li><a href="return.php">Return</a></li>
                 </ul>
@@ -92,7 +92,6 @@ session_start();
                 echo '</select>';
 
                 ?>
-                <label>What did you think of the book?</label><input type="textbox" name="review">
                 <input type="submit" value="Delete Book">
             </form>
             </div>
