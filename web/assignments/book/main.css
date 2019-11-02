@@ -92,7 +92,7 @@ body{
     }
 
     input[type=submit]:hover {
-      background-color: purple;
+      background-color: yellowgreen;
       transition: all inline .7s;
     }
 

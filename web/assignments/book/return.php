@@ -27,7 +27,7 @@ session_start();
         </header>
         <main>
             <h1>Book Manager</h1>
-            <div class="delete">
+            <div class="delet">
             <h2>Return a Book</h2>
             <form action="returnconfirmation.php" method="post">
                 <label>Title</label>
