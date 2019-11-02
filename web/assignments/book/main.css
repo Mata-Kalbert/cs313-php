@@ -5,6 +5,7 @@ html{
 body{
   background-color: #76caa7;
   margin: 0 auto; 
+  width: 70%;
 }
 
 /*header{
@@ -51,19 +52,6 @@ ul {
       color: white;
     }
     
-    .navbar-inverse .navbar-nav > li > a {
-      color: #ffffff;
-      font-family: Lato;
-      font-size: 1.4rem;
-      font-weight: 300;
-      padding: 30px 25px 33px 25px;
-    }
-    
-    .navbar-inverse .navbar-nav li a:hover {
-      background-color: #444444;
-      transition: 0.7s all linear;
-      
-    }
    
     main {
         text-align: center;
