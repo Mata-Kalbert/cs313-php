@@ -53,7 +53,7 @@ body{
         background-color: rgb(191, 214, 235);
         margin-bottom: 0;
         padding: 5%;
-        padding-bottom: 5%;
+        padding-bottom: 20%;
     } 
      main p {
         margin: 2% 2%;
@@ -110,9 +110,11 @@ body{
     .book-review input[type=textbox]{
      
       width:24%;
+      margin-left: 40%;
     }
     .book-review input[type=submit]{
       float: right;
+      margin-top:10px
       
 
 
