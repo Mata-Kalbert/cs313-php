@@ -19,14 +19,14 @@ ul {
       padding: 0;
       width: 200px;
       height:40px;
-      padding: 20px;
+  
       
     }
     
     li a {
       display: inline;
       color: #4e2929;
-      padding: 8px 16px;
+      padding: 20px 30px;
       text-decoration: none;
     }
     
@@ -45,5 +45,5 @@ ul {
     }
     footer {
         background-color: #76caa7;
-        padding-top:15;
+        
     }
