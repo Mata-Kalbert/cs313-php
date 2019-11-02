@@ -72,14 +72,14 @@ session_start();
             ?>
             <div class="delete">
             <h3>Delete book from list<h3>
-            <form action="returnconfirmation.php" method="post">
+            <form action="delete_book.php" method="post">
                 <label>Title</label>
                 <?php
                  ini_set('display_errors', 1);
                 require('dbConnect.php');
                 $db = get_db();
 
-                $query = $db->query("SELECT booksid, title FROM Books WHERE finnish = 'false';"); // Run your query
+                $query = $db->query("SELECT booksid, title FROM Books WHERE finnish = 'true';"); // Run your query
 
                 echo '<select name="titlebook">'; // Open your drop down box
 

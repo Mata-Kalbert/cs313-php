@@ -69,7 +69,7 @@ session_start();
             
             ?>
           <div class="delete">
-
+          <h3>Delete book from list<h3>
            <form action="delete_book_read.php" method="post">
                 <label>Title</label>
                 <?php
