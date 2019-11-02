@@ -12,8 +12,9 @@ session_start();
     </head>
     <body>
         <header>
-         
-            <nav>
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+			<div class="container">
+              <div class="navbar-header">
                 <ul>
                     <li><a href="index.php">Home</a></li>
                     <li><a href="checkout.php">Cheked Out</a></li>
