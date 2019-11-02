@@ -27,7 +27,7 @@ session_start();
         </header>
         <main>
             <h1>Book Manager</h1>
-            <div class="delet">
+            
             <h2>Return a Book</h2>
             <form action="returnconfirmation.php" method="post">
                 <label>Title</label>
@@ -49,10 +49,11 @@ session_start();
                 echo '</select>';
 
                 ?>
-                <label>What did you think of the book?</label><input type="textbox" name="review">
+                <label>What did you think of the book?</label>
+                <input type="textbox" name="review">
                 <input type="submit" value="Return book">
             </form>
-            </div>
+            
         </main>
         <footer>
             <p>CS 313 Kalbertss Mata 2019</p>
