@@ -1,5 +1,5 @@
 html{
-  background-color: yellowgreen;
+  background-image: url(families_stories2.jpg);
 }
 
 body{
@@ -59,6 +59,11 @@ ul {
     .nav li a:hover{
       background-color: blue;
       transition: all .7s;
+      
+    }
+    .nav li a:active{
+      padding: 20px;
+      
     }
    
     main {
