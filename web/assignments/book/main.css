@@ -88,6 +88,12 @@ body{
       background-color: #444444;
       box-shadow: 4px 4px 4px solid #969595;
       margin: 3%;
+      float: right;
+    }
+
+    input[type=submit]:hover {
+      background-color: purple;
+      transition: all inline .7s;
     }
 
     .delete label {
