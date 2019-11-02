@@ -27,7 +27,7 @@ ul {
     
     li a {
       font-size:1.4rem;
-      display: inline-block;
+      display: inline;
       color: #4e2929;
       padding: 20px 30px;
       text-decoration: none;
