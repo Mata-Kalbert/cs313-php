@@ -106,14 +106,14 @@ ul {
        transition: 0.9s all linear;
     }
     
-    .footer {
+    footer {
         background-color: rgb(136, 141, 161);
         text-align: center;  
         padding: 4%;
         color: #ffffff;
     
     }
-    .footer:hover{
+    footer:hover{
         background-color: #444444;
         transition: 0.9S ALL linear;
     }
