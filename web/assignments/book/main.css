@@ -10,15 +10,15 @@ body{
 }
 
 .intro {
-  font-size: .75em;
-  padding: 10%;
-  margin: 15%;
+  font-size: 2.5rem;
+  padding: 3%;
+  margin:  0 15%;
 }
 
 .quote {
-  font-size: .9em;
-  padding: 15%;
-  margin: 15%;
+  font-size: 3.5em;
+  padding: 3%;
+  margin: 0 15%;
   font-style: italic;
 }
     /* Menu */
@@ -66,8 +66,7 @@ body{
         font-size: 4rem;
         padding: 5%;
         text-align: center;
-        border: #817f7f;
-
+        border: 2px dashed #817f7f;
     }
     
     footer {
@@ -87,13 +86,17 @@ body{
     input[type=submit] {
       color: #ffffff;
       background-color: #444444;
-      box-shadow: 2px 2px 2px solid #969595;
+      box-shadow: 4px 4px 4px solid #969595;
     }
 
-    .delete {
-      clear: both;
+    .delete label {
+      float:left;
+      width:25%;
+      text-align:right;
+      margin-right:5px;
     }
 
     .delete input {
-      clear: both;
+      float:left;
+      width:65%;
     }
