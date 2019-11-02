@@ -38,6 +38,7 @@ session_start();
                 <input type="submit" value="Add Book">
             </form>
         </main>
+        <footer>
             <p>CS 313 Kalbert Mata 2019</p>
         </footer>
     </body>
