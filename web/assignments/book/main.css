@@ -16,10 +16,12 @@ body{
 }
 
 .quote {
-  font-size: 3.5em;
+  font-size: 3rem;
   padding: 3%;
   margin: 0 15%;
   font-style: italic;
+  text-align: center;
+  color: darkblue;
 }
     /* Menu */
     .navbar, .navbar-inverse {
@@ -36,8 +38,6 @@ body{
     }
     .nav li a{
       color: white;
-      
-
     }
     .nav li a:hover{
       background-color: #444444;
@@ -87,16 +87,16 @@ body{
       color: #ffffff;
       background-color: #444444;
       box-shadow: 4px 4px 4px solid #969595;
+      margin: 3%;
     }
 
     .delete label {
       float:left;
       width:25%;
       text-align:right;
-      margin-right:5px;
     }
 
-    .delete input {
+    .delete input[type=text], input[type=textbox] {
       float:left;
       width:65%;
     }
