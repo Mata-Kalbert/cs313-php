@@ -1,5 +1,5 @@
 html{
-  background-color: purple;
+  background-color: yellowgreen;
 }
 
 body{
@@ -51,7 +51,15 @@ ul {
       display: inline;
       color: white;
     }
-    
+    li a{
+      color: white;
+      font-size:1.3rem;
+
+    }
+    li a:hover{
+      background-color: blue;
+      transition: all .7s;
+    }
    
     main {
         text-align: center;
