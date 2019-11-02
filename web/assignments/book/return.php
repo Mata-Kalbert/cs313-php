@@ -49,8 +49,7 @@ session_start();
                 echo '</select>';
 
                 ?>
-                <label>What did you think of the book?</label>
-                <input type="textbox" name="review">
+                <label>What did you think of the book?</label><input type="textbox" name="review">
                 <input type="submit" value="Return book">
             </form>
             </form> 
