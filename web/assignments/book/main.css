@@ -26,7 +26,8 @@ ul {
     }
     
     li a {
-      display: inline;
+      font-size:1.4rem;
+      display: inline-block;
       color: #4e2929;
       padding: 20px 30px;
       text-decoration: none;
