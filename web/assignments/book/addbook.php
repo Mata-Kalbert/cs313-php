@@ -12,17 +12,17 @@ session_start();
     </head>
     <body>
         <header>
-         <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-			<div class="container">
-              <div class="navbar-header">
-                  <ul>
+        <div>
+             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="checkout.php">Cheked Out</a></li>
                     <li><a href="returned.php">Returned</a></li>
                     <li><a href="addbook.php">Add New</a></li>
                     <li><a href="return.php">Return</a></li>
                 </ul>
-            </nav>
+            </div>
+        </div>
         </header>
         <main>
             <h1>Book Manager</h1>
