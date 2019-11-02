@@ -68,7 +68,8 @@ session_start();
             }
             
             ?>
-
+          <div class="delete">
+              
            <form action="delete_book_read.php" method="post">
                 <label>Title</label>
                 <?php

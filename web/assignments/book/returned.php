@@ -70,6 +70,32 @@ session_start();
             }
             
             ?>
+            <div class="delete">
+            <h3>Delete book from list<h3>
+            <form action="returnconfirmation.php" method="post">
+                <label>Title</label>
+                <?php
+                 ini_set('display_errors', 1);
+                require('dbConnect.php');
+                $db = get_db();
+
+                $query = $db->query("SELECT booksid, title FROM Books WHERE finnish = 'false';"); // Run your query
+
+                echo '<select name="titlebook">'; // Open your drop down box
+
+                // Loop through the query results, outputing the options one by one
+                while ($row = $query->fetch(PDO::FETCH_ASSOC)) {
+                    
+                echo "<option value='" .$row['booksid'] . "'>".$row['title'].'</option>';
+                }
+
+                echo '</select>';
+
+                ?>
+                <label>What did you think of the book?</label><input type="textbox" name="review">
+                <input type="submit" value="Delete Book">
+            </form>
+            </div>
         </main>
         <footer>
             <p>CS 313 Kalbert Mata 2019</p>
