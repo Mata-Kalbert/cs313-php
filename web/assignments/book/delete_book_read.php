@@ -8,7 +8,7 @@ $book_id = htmlspecialchars($_POST['titlebook']);
 require('dbConnect.php');
 $db = get_db();
 
-$stmt = $db->prepare('DELETE FROM Books WHERE booksid = :books_id;');
+$stmt = $db->prepare('DELETE FROM Books WHERE booksid = :book_id;');
 $stmt->bindValue(':book_id', $book_id, PDO::PARAM_INT);
 $stmt->execute();
 
