@@ -93,7 +93,7 @@ body{
 
     input[type=submit]:hover {
       background-color: yellowgreen;
-      transition: all inline .7s;
+      transition: all linear .7s;
     }
 
     .delete label {
@@ -108,5 +108,10 @@ body{
     }
     .book-review input[type=textbox]{
       float: right;
-      width:20%;
+      width:28%;
+    }
+    .book-review input[type=submit]{
+      float: right;
+      
+
     }
