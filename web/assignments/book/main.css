@@ -3,9 +3,10 @@ html{
 }
 
 body{
-  background-color: #76caa7;
+  
   margin: 0 auto; 
   width: 70%;
+
 }
 
 /*header{
@@ -58,7 +59,7 @@ ul {
 
     }
     .nav li a:hover{
-      background-color: blue;
+      background-color: #444444;
       transition: all linear .7s;
       
     }
@@ -112,7 +113,7 @@ ul {
     footer {
         background-color: rgb(136, 141, 161);
         text-align: center;  
-        padding-block-end: 0%;
+        padding: 4S%;
         color: #ffffff;
         margin-top: 0;
     
