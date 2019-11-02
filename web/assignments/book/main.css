@@ -59,7 +59,7 @@ ul {
     }
     .nav li a:hover{
       background-color: blue;
-      transition: all .7s;
+      transition: all linear .7s;
       
     }
     .nav li a:active{
@@ -84,7 +84,7 @@ ul {
         background-color: lightblue;
         font-style: oblique;
         font-size: 4rem;
-        padding: 10%;
+        padding: 5%;
         text-align: center;
 
     
@@ -119,6 +119,8 @@ ul {
     footer:hover{
         background-color: #444444;
         transition: 0.9S ALL linear;
+        margin-top: 0;
+
     }
 
     /*li a:hover {
