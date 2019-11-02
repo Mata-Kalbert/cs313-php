@@ -4,6 +4,8 @@ body{
 
 header{
   background-color: azure;
+  widows: 100px;
+  height: 50px;
 }
 
 .navbar, .navbar-inverse {
