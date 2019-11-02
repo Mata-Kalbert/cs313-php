@@ -50,7 +50,7 @@ ul {
     .nav li {
       display: inline;
       color: white;
-      font-size:1.3rem;
+      font-size:1.7rem;
     }
     .nav li a{
       color: white;
@@ -68,9 +68,10 @@ ul {
     }
    
     main {
-        text-align: center;
+        text-align: left;
         background-color: rgb(191, 214, 235);
-        margin-top: 0;
+        margin: 0;
+
     
     } 
      main p {
@@ -82,7 +83,8 @@ ul {
         margin-bottom: 0;
         background-color: lightblue;
         font-style: oblique;
-        font-size: 2rem;
+        font-size: 4rem;
+        padding: 10%;
 
     
     }
