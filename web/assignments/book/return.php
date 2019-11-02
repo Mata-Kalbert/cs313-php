@@ -19,14 +19,15 @@ session_start();
                     <li><a href="index.php">Home</a></li>
                     <li><a href="checkout.php">Reading</a></li>
                     <li><a href="returned.php">Books Read</a></li>
-                    <li><a href="addbook.php">Add New</a></li>
-                    <li><a href="return.php">Return</a></li>
+                    <li><a href="addbook.php">Add Book</a></li>
+                    <li><a href="return.php">Change to Read</a></li>
                 </ul>
             </div>
         </div>
         </header>
         <main>
             <h1>Book Manager</h1>
+            <div class="delete">
             <h2>Return a Book</h2>
             <form action="returnconfirmation.php" method="post">
                 <label>Title</label>
@@ -51,6 +52,7 @@ session_start();
                 <label>What did you think of the book?</label><input type="textbox" name="review">
                 <input type="submit" value="Return book">
             </form>
+            </div>
         </main>
         <footer>
             <p>CS 313 Kalbertss Mata 2019</p>

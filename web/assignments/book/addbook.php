@@ -19,8 +19,8 @@ session_start();
                     <li><a href="index.php">Home</a></li>
                     <li><a href="checkout.php">Reading</a></li>
                     <li><a href="returned.php">Books Read</a></li>
-                    <li><a href="addbook.php">Add New</a></li>
-                    <li><a href="return.php">Return</a></li>
+                    <li><a href="addbook.php">Add Book</a></li>
+                    <li><a href="return.php">Change to Read</a></li>
                 </ul>
             </div>
         </div>
