@@ -1,3 +1,7 @@
+body{
+  background-color: #76caa7;
+}
+
 header{
   background-color: azure;
 }
@@ -7,12 +11,14 @@ border-radius: 0;
 border: none;
 margin-bottom: 0;
   min-height: 80px;
+
 }
 ul {
       list-style-type: none;
       margin: 0;
       padding: 0;
       width: 200px;
+      height:40px;
       
     }
     
@@ -34,7 +40,9 @@ ul {
     }
     main{
         background-color: #8ab5c2;
+        padding:40px;
     }
     footer {
         background-color: #76caa7;
+        padding:35:
     }
