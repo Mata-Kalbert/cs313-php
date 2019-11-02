@@ -7,22 +7,22 @@ session_start();
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <link type="text/css" rel="stylesheet" href="main.css">
         <title>Book Manager</title>
         </head>
         <body>
         <header>
-            <nav>
-             <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-			  <div class="container">
-                <div class="navbar-header">
-                   <ul>
+           <nav>
+             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="checkout.php">Cheked Out</a></li>
                     <li><a href="returned.php">Returned</a></li>
                     <li><a href="addbook.php">Add New</a></li>
                     <li><a href="return.php">Return</a></li>
                 </ul>
+               </div>
             </nav>
         </header>
         <main>
